@@ -2,7 +2,8 @@ import streamlit as st
 import pandas as pd
 import matplotlib.pyplot as plt
 
-df = pd.read_csv("main.csv")
+BASE_DIR = os.path.dirname(os.path.abspath(__file__))
+df = pd.read_csv(os.path.join(BASE_DIR, "main.csv"))
 
 # Mengubah kolom tanggal menjadi datetime
 df["dteday"] = pd.to_datetime(df["dteday"])
