@@ -2,18 +2,25 @@
 
 Dashboard analisis data penyewaan sepeda menggunakan Streamlit berdasarkan Bike Sharing Dataset tahun 2011–2012.
 
-## Setup Environment
+# Dicoding Collection Dashboard ✨
 
-Pastikan Python sudah terinstall pada komputer.
-
-Buka terminal pada folder `dashboard`, kemudian install library yang dibutuhkan dengan menjalankan:
-
-```bash
+## Setup Environment - Anaconda
+```
+conda create --name main-ds python=3.11
+conda activate main-ds
 pip install -r requirements.txt
 ```
 
-## Run streamlit app
+## Setup Environment - Shell/Terminal
+```
+mkdir proyek_analisis_data
+cd proyek_analisis_data
+pipenv install
+pipenv shell
+pip install -r requirements.txt
+```
 
-```bash
+## Run steamlit app
+```
 streamlit run dashboard.py
 ```
