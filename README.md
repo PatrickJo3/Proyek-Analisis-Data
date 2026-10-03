@@ -2,8 +2,6 @@
 
 Dashboard analisis data penyewaan sepeda menggunakan Streamlit berdasarkan Bike Sharing Dataset tahun 2011–2012.
 
-# Dicoding Collection Dashboard ✨
-
 ## Setup Environment - Anaconda
 ```
 conda create --name main-ds python=3.11
